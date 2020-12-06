@@ -10,6 +10,8 @@ $ npm i -D snowpack-plugin-sharp sharp
 ## Installation
 
 ```js
+const sharp = require("sharp");
+
 // snowpack.config.js
 module.exports = {
   plugins: [
