@@ -23,7 +23,7 @@ module.exports = {
             fileExt: ".jpg",
             apply: (file) =>
               sharp(file).jpeg({
-                quality: 10,
+                quality: 50,
                 chromaSubsampling: "4:4:4",
               }),
           },
@@ -32,4 +32,19 @@ module.exports = {
     ],
   ],
 };
+```
+
+---
+
+Optionally, it is possible to create a second Image with 'preview-' prefix in the filename. This can be useful for generating low quality images for instance.
+
+```js
+{
+  fileExt: ".webp",
+  withPreview: (file) => sharp(file).webp({ quality: 1 }),
+  apply: (file) =>
+    sharp(file).webp({
+      quality: 60,
+    }),
+}
 ```
