@@ -1,6 +1,6 @@
 {
   "name": "snowpack-plugin-sharp",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Use sharp to optimize your images in Snowpack",
   "main": "src/index.js",
   "keywords": [
