@@ -48,3 +48,7 @@ Optionally, it is possible to create a second Image with 'preview-' prefix in th
     }),
 }
 ```
+
+### Further Optimization
+
+While this plugin is useful in the build step, handling the image correctly on the Web is the other side of the coin. This library [progressive-picture](https://github.com/Krutsch/progressive-picture) could be helpful in this case.
