@@ -1,6 +1,6 @@
 {
   "name": "snowpack-plugin-sharp",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Use sharp to optimize your images in Snowpack",
   "main": "src/index.js",
   "keywords": [
@@ -11,7 +11,7 @@
   "author": "Fabian Krutsch <f.krutsch@gmx.de> (https://krutsch.netlify.app/)",
   "license": "MIT",
   "dependencies": {
-    "sharp": "^0.29.0"
+    "sharp": "^0.29.1"
   },
   "repository": {
     "type": "git",
