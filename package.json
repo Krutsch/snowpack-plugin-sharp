@@ -11,7 +11,7 @@
   "author": "Fabian Krutsch <f.krutsch@gmx.de> (https://krutsch.netlify.app/)",
   "license": "MIT",
   "dependencies": {
-    "sharp": "^0.29.1"
+    "sharp": "^0.30.0"
   },
   "repository": {
     "type": "git",
